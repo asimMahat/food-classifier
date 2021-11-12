@@ -1,6 +1,4 @@
-
 # Food Classifer API built using FastAPI.
-
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -18,9 +16,10 @@ Project is created with:
 * Uvicorn :0.15.0
 	
 ## Setup
-To run this project, install above necessary packages and run the following command:
-
+To run this project, install above mentioned packages and run the following command:
+```
 $ python my_api.py 
+```
 
 MIT © Asim Mahat
 
