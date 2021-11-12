@@ -7,9 +7,9 @@ from prediction import read_imagefile,predict,preprocess
 app = FastAPI()
 
 
-@app.get("/index")
-def index(name:str):
-    return f"Hello {name}! " 
+# @app.get("/index")
+# # def index(name:str):
+# #     return f"Hello {name}! " 
 
 @app.post("/api/predict")
 async def predict_api(file: UploadFile = File(...)):
