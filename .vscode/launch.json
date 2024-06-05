@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "pathMappings": [
+                {"localRoot":"{workspaceFolder}",
+                "remoteRoot":"home/asimm/Food-Classifier"
+            }
+            ],
+            // "cwd": "${workspaceFolder}/home/asimm/Food-Classifier",
+            "args": [
+                "my_api:app",
+                "--reload",
+                "--port",
+                "3000"
+            ],
+            "jinja":true,
+
+            "env":{
+                "PIPENV_ACTIVE" :"1",
+            }
+        }
+    ]
+}
